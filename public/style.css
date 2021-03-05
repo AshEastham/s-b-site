@@ -19,26 +19,31 @@ a:visited {
 }
 
 /* MAIN */
-.logo {
-  height: 300px;
-  width: 300px;
-  position: absolute;
-  top: 0;
-  left: 38%;
+header nav {
+  background-color: #f6ecea;
+  color: #ba8559;
 }
 
-nav {
-  height: 5em;
+header nav ul li {
+  padding: 1em 3em;
 }
 
-nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style-type: none;
+header .navbar-toggler {
+  border: solid 3px #ba8559;
+  background-color: #f6ecea;
 }
 
-nav ul li {
-  padding: 1em 2em 1em 2em;
+header .navbar-toggler-icon {
+  color: white;
+}
+
+header .logo {
+  height: 200px;
+  width: 200px;
+}
+
+/* MAIN */
+main {
+  height: 50em;
 }
 /*# sourceMappingURL=style.css.map */

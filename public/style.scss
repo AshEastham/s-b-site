@@ -1,3 +1,7 @@
+$primary-color: #f6ecea;
+$secondary-color: #ba8559;
+$primary-accent: #d6b2a8;
+
 /* ALL */
 * {
     margin: 0;
@@ -20,23 +24,35 @@ a:visited {
 
 /* MAIN */
 
-.logo {
-    height: 300px;
-    width: 300px;
-    position: absolute;
-    top: 0;
-    left: 38%;
-}
+header {
 
-nav {
-    height: 5em;
+    nav {
+        background-color: $primary-color;
+        color: $secondary-color;
 
-    ul {
-        display: flex;
-        list-style-type: none;
-
-        li {
-            padding: 1em 2em 1em 2em;
+        ul {
+            li {
+                padding: 1em 3em;
+            }
         }
     }
+
+    .navbar-toggler {
+        border: solid 3px $secondary-color;
+        background-color: $primary-color;
+    }
+
+    .navbar-toggler-icon {
+        color: white;
+    }
+
+    .logo {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/* MAIN */
+main {
+    height: 50em;
 }
