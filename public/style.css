@@ -28,13 +28,13 @@ header nav ul li {
   padding: 1em 3em;
 }
 
+header .open-btn {
+  color: #d6b2a8;
+}
+
 header .navbar-toggler {
   border: solid 3px #ba8559;
   background-color: #f6ecea;
-}
-
-header .navbar-toggler-icon {
-  color: white;
 }
 
 header .logo {

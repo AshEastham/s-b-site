@@ -37,13 +37,13 @@ header {
         }
     }
 
+    .open-btn {
+        color: $primary-accent;
+    }
+
     .navbar-toggler {
         border: solid 3px $secondary-color;
         background-color: $primary-color;
-    }
-
-    .navbar-toggler-icon {
-        color: white;
     }
 
     .logo {
