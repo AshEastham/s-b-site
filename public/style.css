@@ -28,6 +28,17 @@ header nav ul li {
   padding: 1em 3em;
 }
 
+header nav .dropdown-menu {
+  background-color: #f6ecea;
+  color: #ba8559;
+}
+
+header nav .dropdown-item:hover {
+  background-color: #ba8559;
+  color: #f6ecea;
+  border-radius: 5px;
+}
+
 header .open-btn {
   color: #d6b2a8;
 }
@@ -45,5 +56,6 @@ header .logo {
 /* MAIN */
 main {
   height: 50em;
+  padding-top: 2em;
 }
 /*# sourceMappingURL=style.css.map */

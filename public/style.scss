@@ -35,6 +35,17 @@ header {
                 padding: 1em 3em;
             }
         }
+
+        .dropdown-menu {
+            background-color: $primary-color;
+            color: $secondary-color;
+        }
+
+        .dropdown-item:hover {
+            background-color: $secondary-color;
+            color: $primary-color;
+            border-radius: 5px;
+        }
     }
 
     .open-btn {
@@ -55,4 +66,5 @@ header {
 /* MAIN */
 main {
     height: 50em;
+    padding-top: 2em;
 }
