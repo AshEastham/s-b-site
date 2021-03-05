@@ -31,6 +31,7 @@ header nav ul li {
 header nav .dropdown-menu {
   background-color: #f6ecea;
   color: #ba8559;
+  padding: 1em 1em;
 }
 
 header nav .dropdown-item:hover {
