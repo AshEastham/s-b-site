@@ -1,7 +1,15 @@
+/* VARIABLES */
+/* FONT IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap");
 /* ALL */
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Lora', sans-serif;
+}
+
+body {
+  background-color: #f6ecea;
 }
 
 a {
@@ -19,25 +27,46 @@ a:visited {
 }
 
 /* MAIN */
+header {
+  border-bottom: solid 2px #d6b2a8;
+  border-top: solid 2px #d6b2a8;
+}
+
+header h1 {
+  font-family: 'Lora', sans-serif;
+  font-size: 1.5em;
+  font-weight: 200;
+  text-transform: uppercase;
+  padding-top: .32em;
+}
+
 header nav {
-  background-color: #f6ecea;
+  background-color: white;
   color: #ba8559;
 }
 
-header nav ul li {
-  padding: 1em 3em;
+header nav li {
+  margin-left: 6em;
+}
+
+header nav li :hover {
+  color: #d6b2a8;
 }
 
 header nav .dropdown-menu {
   background-color: #f6ecea;
   color: #ba8559;
-  padding: 1em 1em;
+}
+
+header nav .dropdown-menu li {
+  margin-left: 0;
 }
 
 header nav .dropdown-item:hover {
-  background-color: #ba8559;
-  color: #f6ecea;
-  border-radius: 5px;
+  background-color: #f6ecea;
+  color: #d6b2a8;
+  border-radius: 3px;
+  margin-left: none !important;
 }
 
 header .open-btn {
@@ -45,18 +74,33 @@ header .open-btn {
 }
 
 header .navbar-toggler {
-  border: solid 3px #ba8559;
+  border: solid 3px #d6b2a8;
   background-color: #f6ecea;
-}
-
-header .logo {
-  height: 200px;
-  width: 200px;
 }
 
 /* MAIN */
 main {
   height: 50em;
-  padding-top: 2em;
+}
+
+main .page-title-wrapper {
+  border-bottom: solid 2px #d6b2a8;
+  margin-bottom: 2em;
+}
+
+main .page-title-wrapper h2 {
+  font-size: 4em;
+  padding: .3em .3em;
+  font-family: 'Dawning of a New Day', sans-serif;
+  color: #d6b2a8;
+  text-shadow: 2px 2px black;
+  text-align: center;
+}
+
+/* MEDIA QUERIS */
+@media screen and (max-width: 770px) {
+  header nav li {
+    margin-left: 1em;
+  }
 }
 /*# sourceMappingURL=style.css.map */
