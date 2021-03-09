@@ -33,8 +33,9 @@ header {
 }
 
 header .logo {
-  height: 75px;
-  width: 200px;
+  height: 69.25px;
+  width: 175px;
+  padding: 0;
 }
 
 header nav {
