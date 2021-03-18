@@ -151,9 +151,26 @@ footer .copy {
 }
 
 /* MEDIA QUERIS */
+@media screen and (max-width: 1024px) {
+  .clear {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 770px) {
   header nav li {
     margin-left: 1em;
+  }
+  .clear {
+    display: block;
+    height: 3.5em;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .clear {
+    display: block;
+    height: 25em;
   }
 }
 /*# sourceMappingURL=style.css.map */
