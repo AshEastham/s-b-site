@@ -118,6 +118,38 @@ main .page-title-wrapper h2 {
   margin-bottom: 4em;
 }
 
+footer {
+  text-align: center;
+  color: #ba8559;
+  background-color: white;
+  border-top: solid 2px #ba8559;
+  border-bottom: solid 2px #ba8559;
+  padding-top: 1em;
+}
+
+footer .social {
+  font-size: 2.5em;
+}
+
+footer .social :hover {
+  color: #ba8559;
+}
+
+footer .email {
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+footer .email :hover {
+  color: #ba8559;
+}
+
+footer .copy {
+  padding: 10px;
+  padding-top: 1em;
+  font-size: 0.9em;
+}
+
 /* MEDIA QUERIS */
 @media screen and (max-width: 770px) {
   header nav li {

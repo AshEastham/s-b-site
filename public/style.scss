@@ -115,6 +115,36 @@ main {
     }
 }
 
+footer {
+    text-align: center;
+    color: $secondary-color;
+    background-color: white;
+    border-top: solid 2px $secondary-color;
+    border-bottom: solid 2px $secondary-color;
+    padding-top: 1em;
+
+    .social {
+        font-size: 2.5em;
+
+        :hover {
+            color: $secondary-color;
+        }
+    }
+    .email {
+        padding: 10px;
+        font-size: 1.1em;
+
+        :hover {
+            color: $secondary-color;
+        }
+    }
+    .copy {
+        padding: 10px;
+        padding-top: 1em;
+        font-size: 0.9em;
+    }
+}
+
 /* MEDIA QUERIS */
 @media screen and (max-width: 770px) {
     header {
