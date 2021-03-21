@@ -118,15 +118,10 @@ main {
 .about {
     color: $secondary-color;
     text-align: center;
-    padding: 3em 0;
+    padding: 5em 0;
 
     p {
-        padding: 0 5em;
         color: black;
-
-        :nth-child(2) {
-            padding: 0 10em;
-        }
     }
 }
 

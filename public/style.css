@@ -121,16 +121,11 @@ main .page-title-wrapper h2 {
 .about {
   color: #ba8559;
   text-align: center;
-  padding: 3em 0;
+  padding: 5em 0;
 }
 
 .about p {
-  padding: 0 5em;
   color: black;
-}
-
-.about p :nth-child(2) {
-  padding: 0 10em;
 }
 
 footer {
