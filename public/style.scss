@@ -84,7 +84,7 @@ header {
 
 /* MAIN */
 main {
-    height: 50em;
+    height: auto;
 
     .page-title-wrapper {
         border-bottom: solid 2px $primary-accent;
@@ -112,6 +112,21 @@ main {
 
     .home-banner {
         margin-bottom: 4em;
+    }
+}
+
+.about {
+    color: $secondary-color;
+    text-align: center;
+    padding: 3em 0;
+
+    p {
+        padding: 0 5em;
+        color: black;
+
+        :nth-child(2) {
+            padding: 0 10em;
+        }
     }
 }
 

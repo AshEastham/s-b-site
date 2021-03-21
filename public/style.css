@@ -78,7 +78,7 @@ header .navbar-toggler {
 
 /* MAIN */
 main {
-  height: 50em;
+  height: auto;
 }
 
 main .page-title-wrapper {
@@ -116,6 +116,21 @@ main .page-title-wrapper h2 {
 
 #home .home-banner {
   margin-bottom: 4em;
+}
+
+.about {
+  color: #ba8559;
+  text-align: center;
+  padding: 3em 0;
+}
+
+.about p {
+  padding: 0 5em;
+  color: black;
+}
+
+.about p :nth-child(2) {
+  padding: 0 10em;
 }
 
 footer {
