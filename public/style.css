@@ -5,11 +5,11 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Lora', sans-serif;
+  font-family: "Lora", sans-serif;
 }
 
 body {
-  background-color: #f6ecea;
+  background-color: #000;
 }
 
 a {
@@ -28,19 +28,21 @@ a:visited {
 
 /* MAIN */
 header {
-  border-bottom: solid 2px #d6b2a8;
-  border-top: solid 2px #d6b2a8;
+  border-bottom: solid 2px #c981c7;
+  border-top: solid 2px #c981c7;
+  height: auto;
 }
 
 header .logo {
-  height: 69.25px;
-  width: 175px;
+  height: 120.5px;
+  width: 200px;
   padding: 0;
+  margin-top: -0.8em;
 }
 
 header nav {
-  background-color: white;
-  color: #ba8559;
+  background-color: #000;
+  color: #f0bdef;
 }
 
 header nav li {
@@ -48,32 +50,37 @@ header nav li {
 }
 
 header nav li :hover {
-  color: #d6b2a8;
+  color: #c981c7;
 }
 
 header nav .dropdown-menu {
-  background-color: white;
-  color: #ba8559;
+  background-color: #dd44db;
+  color: #fff;
 }
 
 header nav .dropdown-menu li {
   margin-left: 0;
+  color: #fff;
+}
+
+header nav .dropdown-item {
+  color: #fff;
 }
 
 header nav .dropdown-item:hover {
-  background-color: white;
-  color: #d6b2a8;
+  background-color: #dd44db;
+  color: #fff;
   border-radius: 3px;
   margin-left: none !important;
 }
 
 header .open-btn {
-  color: #d6b2a8;
+  color: #c981c7;
 }
 
 header .navbar-toggler {
-  border: solid 3px #d6b2a8;
-  background-color: #f6ecea;
+  border: solid 3px #c981c7;
+  background-color: #000;
 }
 
 /* MAIN */
@@ -82,22 +89,22 @@ main {
 }
 
 main .page-title-wrapper {
-  border-bottom: solid 2px #d6b2a8;
+  border-bottom: solid 2px #c981c7;
   margin-bottom: 2em;
 }
 
 main .page-title-wrapper h2 {
   font-size: 4em;
-  padding: .3em .3em;
-  font-family: 'Dawning of a New Day', sans-serif;
-  color: #d6b2a8;
+  padding: 0.3em 0.3em;
+  font-family: "Dawning of a New Day", sans-serif;
+  color: #c981c7;
   text-shadow: 2px 2px black;
   text-align: center;
 }
 
 #home {
   height: 100vh;
-  background-color: white;
+  background-color: #000;
   /* FLEX */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -112,28 +119,33 @@ main .page-title-wrapper h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
 }
 
 #home .home-banner {
   margin-bottom: 4em;
 }
 
+.about-p {
+  background-color: #000;
+}
+
 .about {
-  color: #ba8559;
+  color: #f0bdef;
   text-align: center;
   padding: 5em 0;
 }
 
 .about p {
-  color: black;
+  color: #fff;
 }
 
 footer {
   text-align: center;
-  color: #ba8559;
-  background-color: white;
-  border-top: solid 2px #ba8559;
-  border-bottom: solid 2px #ba8559;
+  color: #f0bdef;
+  background-color: #000;
+  border-top: solid 2px #f0bdef;
+  border-bottom: solid 2px #f0bdef;
   padding-top: 1em;
 }
 
@@ -142,7 +154,7 @@ footer .social {
 }
 
 footer .social :hover {
-  color: #ba8559;
+  color: #f0bdef;
 }
 
 footer .email {
@@ -151,7 +163,7 @@ footer .email {
 }
 
 footer .email :hover {
-  color: #ba8559;
+  color: #f0bdef;
 }
 
 footer .copy {
